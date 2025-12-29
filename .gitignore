@@ -1,38 +1,14 @@
-# =========================
-# Python cache
-# =========================
-__pycache__/
-*.py[cod]
-
-# =========================
-# Virtual environment
-# =========================
-src/venv/
-venv/
-.venv/
-
-# =========================
-# OS / Editor
-# =========================
-.DS_Store
-Thumbs.db
-.vscode/
-.idea/
-
-# =========================
-# Logs
-# =========================
-*.log
-
-# =========================
-# Data (IGNORE ALL CSVs ❗)
-# =========================
+# Data
 src/data/*.csv
 
-# =========================
-# Model artifacts
-# =========================
+# Models
 src/models/*.h5
 src/models/*.txt
 src/models/*.pkl
-src/models/*.joblib
+
+# Venv
+venv/
+src/venv/
+
+# Cache
+__pycache__/
