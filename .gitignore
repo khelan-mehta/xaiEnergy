@@ -25,20 +25,14 @@ Thumbs.db
 *.log
 
 # =========================
-# Data (ignore large CSVs)
+# Data (IGNORE ALL CSVs ❗)
 # =========================
 src/data/*.csv
 
-
 # =========================
-# Model artifacts (ignore)
+# Model artifacts
 # =========================
 src/models/*.h5
 src/models/*.txt
 src/models/*.pkl
 src/models/*.joblib
-
-# =========================
-# Outputs (TRACKED ✅)
-# =========================
-# (intentionally NOT ignored)
