@@ -1,0 +1,44 @@
+# =========================
+# Python cache
+# =========================
+__pycache__/
+*.py[cod]
+
+# =========================
+# Virtual environment
+# =========================
+src/venv/
+venv/
+.venv/
+
+# =========================
+# OS / Editor
+# =========================
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# =========================
+# Logs
+# =========================
+*.log
+
+# =========================
+# Data (ignore large CSVs)
+# =========================
+src/data/*.csv
+!src/data/sample_submission.csv
+
+# =========================
+# Model artifacts (ignore)
+# =========================
+src/models/*.h5
+src/models/*.txt
+src/models/*.pkl
+src/models/*.joblib
+
+# =========================
+# Outputs (TRACKED ✅)
+# =========================
+# (intentionally NOT ignored)
