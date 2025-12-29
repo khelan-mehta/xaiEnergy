@@ -28,7 +28,7 @@ Thumbs.db
 # Data (ignore large CSVs)
 # =========================
 src/data/*.csv
-!src/data/sample_submission.csv
+
 
 # =========================
 # Model artifacts (ignore)
